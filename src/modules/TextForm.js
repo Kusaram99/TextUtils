@@ -78,7 +78,7 @@ export default function TextForm(props) {
         
         {/* solution-2 */}
         <p> {text.split(' ').filter((elm)=> elm.length !==0).length} word and {textChar.length} character</p>
-        <p> {0.008 * text.split(' ').filter((elm) => elm.length !== 0).lengthz} Reading time</p>
+        <p> {0.008 * text.split(' ').filter((elm) => elm.length !== 0).length} Reading time</p>
         <h3>Preview content</h3>
         <p> {text.length> 0 ? text:" Nothing Preveiw"}</p>
       </div>
